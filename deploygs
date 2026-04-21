@@ -87,7 +87,7 @@ unset gs_deploy_webhook
 
 # Claude API Integration
 # Key baked-in, or override via env: GS_ANTHROPIC_KEY=sk-ant-... bash deploygs
-_GS_CLAUDE_KEY_DEFAULT="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"
+_GS_CLAUDE_KEY_DEFAULT="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"
 GS_ANTHROPIC_KEY="${GS_ANTHROPIC_KEY:-$_GS_CLAUDE_KEY_DEFAULT}"
 unset _GS_CLAUDE_KEY_DEFAULT
 CLAUDE_SECRET=""
